@@ -24,9 +24,10 @@
     text-align: center;
     justify-self: center;
 
-    font-size: 1.2em;
-    letter-spacing: 0.5em;
+    font-size: 1em;
+    letter-spacing: 0.3em;
     font-weight: 2em;
+    font-family:'Roboto', 'Noto', sans-serif;
 }
 
 
@@ -44,5 +45,70 @@
     }
     .header div.head {
         grid-column: 2;
+    }
+}
+
+/* HEad Ends here */
+
+
+/* main Starts From here */
+
+.main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 2em;
+}
+
+.item {
+    justify-self: center;
+    display: grid;
+    grid-template-rows: 3fr 0.7fr 0.7fr;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+    vertical-align: middle;
+}
+
+/* .img {
+    background: url('../img/sample.jpg');
+    background-size: contain;
+    width: 100%;
+    height: 200px;
+} */
+
+.item div.name {
+    text-align: center;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    font-size: 1.15em;
+    align-self: center;
+}
+
+.third-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.shop-now {
+    justify-self: center;
+    align-self: center;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    background-color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    padding: 8px 44px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Desktop View for main section */
+@media only screen and (min-width: 768px) {
+    img {
+        width: 100%;
+        height: 300px;
+        vertical-align: middle;
     }
 }
