@@ -3,6 +3,20 @@
     padding: 0;
 }
 
+.shop-now {
+    justify-self: center;
+    align-self: center;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    background-color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    padding: 8px 44px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 
 
 /* head starts from here */
