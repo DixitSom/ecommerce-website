@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* head starts from here */
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding: 2em;
+    row-gap: 2em;
+    /* width: 100%; */
+}
+
+.header div.cart {
+    text-align: center;
+    justify-self: right;
+    font-size: 1.5em;
+}
+.header div.head {
+    text-align: center;
+    justify-self: center;
+
+    font-size: 1.2em;
+    letter-spacing: 0.5em;
+    font-weight: 2em;
+}
+
+
+
+/* Desktop view Is here */
+@media only screen and (min-width: 768px) {
+    .menu {
+        grid-row: 2;
+        grid-column: 2;
+        justify-self: center;
+    }
+    
+    .header div.cart {
+        grid-column: 3;
+    }
+    .header div.head {
+        grid-column: 2;
+    }
+}
