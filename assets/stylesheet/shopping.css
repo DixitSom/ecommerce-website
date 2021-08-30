@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* head starts from here */
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding: 2em;
+    row-gap: 2em;
+    /* width: 100%; */
+}
+
+.header div.cart {
+    text-align: center;
+    justify-self: right;
+    font-size: 1.5em;
+}
+.header div.head {
+    text-align: center;
+    justify-self: center;
+
+    font-size: 1em;
+    letter-spacing: 0.3em;
+    font-weight: 2em;
+    font-family:'Roboto', 'Noto', sans-serif;
+}
+
+
+
+/* Desktop view Is here */
+@media only screen and (min-width: 768px) {
+    .menu {
+        grid-row: 2;
+        grid-column: 2;
+        justify-self: center;
+    }
+    
+    .header div.cart {
+        grid-column: 3;
+    }
+    .header div.head {
+        grid-column: 2;
+    }
+}
+
+/* HEad Ends here */
+
+
+
+
+/* Footer Starts From here */
+
+.footer {
+    display: grid;
+    margin-top: 4em;
+    row-gap: 1em;
+}
+
+.footer .author {
+    justify-self: center;
+    text-align: center;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    font-size: 0.8em;
+    align-self: center;
+}
+
+.footer .shop-now {
+    align-self: center;
+    justify-self: center;
+    background-color: #000;
+    color: white;
+}
