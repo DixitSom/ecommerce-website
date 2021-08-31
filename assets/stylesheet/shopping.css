@@ -65,6 +65,75 @@
 /* HEad Ends here */
 
 
+/* Main starts from here */
+
+.main-head {
+    display: grid;
+    justify-content: center;
+    row-gap: 0.5em;
+}
+
+.main-head h1 {
+    text-align: center;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.main-head p {
+    text-align: center;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    font-size: 0.8em;
+    font-weight: 200;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    row-gap: 2em;
+    column-gap: 2em;
+    padding: 2em;
+}
+
+.item {
+    justify-self: center;
+    display: grid;
+    /* grid-template-rows: fr 0.1fr 0.1fr; */
+    row-gap: 1em;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+    vertical-align: middle;
+}
+
+/* .img {
+    background: url('../img/sample.jpg');
+    background-size: contain;
+    width: 100%;
+    height: 200px;
+} */
+
+.item div.name {
+    text-align: center;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    font-size: 0.9em;
+    font-weight: 800;
+    align-self: center;
+}
+
+.item .price {
+    text-align: center;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    font-size: 0.8em;
+    font-weight: 100;
+    align-self: center;
+}
+
+
+/* Main Ends here */
 
 
 /* Footer Starts From here */
