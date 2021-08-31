@@ -1,0 +1,88 @@
+.main {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 2em;
+}
+
+.main .img img{
+    height: 100%;
+    width: 100%;
+}
+
+.item-info {
+    display: grid;
+    row-gap: 2em;
+    padding: 1em 0 1em 0;
+    font-family: 'Roboto', 'Noto', sans-serif;
+}
+
+.name-price-wrapper {
+    display: grid;
+    row-gap: 0.5em;
+}
+
+.price {
+    font-size: 0.9em;
+    color: #757575;
+}
+
+.form {
+    display: grid;
+    row-gap: 1em;
+}
+
+.form .size, .form .quantity {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-weight: 100;
+    font-size: 0.8em;
+    color: #757575;
+}
+
+.form label {
+    display: flex;
+    align-items: center;
+}
+
+.form select {
+    width: 100%;
+    border: none;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    background-color: transparent;
+}
+
+.description-wrapper {
+    display: grid;
+    row-gap: 1em;
+    padding-top: 2em;
+}
+
+.description-wrapper .text, .feature{
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #757575;
+}
+
+.feature ul {
+    padding-left: 3em;
+}
+
+.footer {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .item-info .shop-now {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        left: 0%;
+        bottom: 0%;
+        width: 100%;
+        height: 4.7em;
+        background-color: #172C50;
+        color: white;
+    }
+}
