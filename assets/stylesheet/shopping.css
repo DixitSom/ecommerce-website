@@ -24,7 +24,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
-    padding: 2em;
+    padding: 1.5em;
     row-gap: 2em;
     /* width: 100%; */
 }
