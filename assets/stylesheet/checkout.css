@@ -121,4 +121,19 @@ input, select {
     font-size: 13px;
 }
 
+/* Desktop View from here */
 
+@media only screen and (min-width: 768px){
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3em;
+        grid-template-rows: auto;
+        align-items: start;
+    }
+    /* grid */
+
+    .shop-now {
+        justify-self: left;
+    }
+}
