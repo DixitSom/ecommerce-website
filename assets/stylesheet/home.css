@@ -63,10 +63,10 @@ text-decoration: none;
         justify-self: center;
     }
     
-    .header div.cart {
+    .header a.cart {
         grid-column: 3;
     }
-    .header div.head {
+    .header a.head {
         grid-column: 2;
     }
 }
@@ -94,6 +94,10 @@ img {
     vertical-align: middle;
 }
 
+.item a.img {
+    justify-self: start;
+    width: 100%;
+}
 /* .img {
     background: url('../img/sample.jpg');
     background-size: contain;
