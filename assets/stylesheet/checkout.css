@@ -1,0 +1,124 @@
+body{
+    font-family:'Roboto', 'Noto', sans-serif;
+}
+
+input, select {
+    width: 100%;
+    border: none;
+    padding: 0.8em 0 0.8em 0;
+    border-bottom: #757575 0.1px solid;
+    font-size: 0.97em;
+    background: transparent;
+}
+
+/* This is bottom button */
+@media only screen and (max-width: 768px) {
+    .payment-info .shop-now {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        left: 0%;
+        bottom: 0%;
+        width: 100%;
+        height: 4.7em;
+        background-color: #172C50;
+        color: white;
+    }
+}
+/* Bottom button view ends here */
+
+/* Main Body starts from here */
+
+.main-head {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    row-gap: 0.5em;
+}
+
+.main-head h5 {
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.main-head p {
+    color: #757575;
+    font-size: 12px;
+}
+
+.main {
+    display: grid;
+    row-gap: 2em;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    padding: 1em 1.5em 1em 1.5em;
+}
+
+
+.account-info, .payment-info {
+    display: grid;
+    row-gap: 2em;
+}
+
+.state-zip {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1em;
+}
+
+.date-cvv {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 1em;
+    grid-template-areas: 
+    'p . .'
+    'month year zip';
+}
+
+.date-cvv p {
+    grid-area: p;
+    font-size: 13px;
+}
+
+.date-cvv #month {
+    grid-area: month;
+}
+
+.date-cvv #year {
+    grid-area: year;
+}
+
+.date-cvv #zip {
+    grid-area: zip;
+}
+
+.bill-checkbox {
+    display: grid;
+    justify-content: left;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.billing-info {
+    display: none;
+}
+
+.summary {
+    display: grid;
+    row-gap: 0.5em;
+}
+
+.summary h5{
+    padding-bottom: 0.5em;
+}
+
+.name-price-wrapper, .total {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+
