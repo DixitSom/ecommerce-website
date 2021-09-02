@@ -4,7 +4,7 @@
 }
 
 a:link {
-    color: none;
+    color: unset;
     text-decoration: none;
   }
   
