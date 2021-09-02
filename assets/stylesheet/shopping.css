@@ -10,19 +10,19 @@ a:link {
   
 /* visited link */
 a:visited {
-color: none;
+color: unset;
 text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-color: none;
+color: unset;
 text-decoration: none;
 }
 
 /* selected link */
 a:active {
-color: none;
+color: unset;
 text-decoration: none;
 }
 
